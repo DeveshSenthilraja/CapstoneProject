@@ -1,0 +1,97 @@
+html 
+{
+  margin: 0;
+  padding: 0
+}
+body 
+{
+  font-family: 'Handlee', cursive;
+  font-size: 13pt;
+  background-color: #292929;
+  background-image: url("background2.jpg");
+  background-size: cover;
+  padding: 10px;
+  margin: 0;
+  }
+h1 
+{
+  font-size: 15pt;
+  color: #f7f7f7;
+  text-align: center;
+  padding: 18px 0 18px 0;
+  margin: 0 0 10px 0;
+}
+h1 span 
+{
+  border: 4px dashed #f7f7f7;
+  padding: 10px;
+}
+p 
+{
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+#header 
+{
+  background-color: #3C3C3C;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-image: url("background.png");
+  background-size: cover;
+}  
+#header p 
+{
+  font-size: 25pt;
+  color: #f7f7f7;
+  padding-top: 5px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Media */
+#media
+{
+  background-color: #3C3C3C;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Navbar */
+#navbar
+{
+  background-color: #3C3C3C;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+#navbar ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3C3C3C;
+}
+#navbar li 
+{
+  float: left;
+}
+#navbar li a 
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+#navbar li a:hover
+{
+  background-color: #04AA6D;
+ 
+}
